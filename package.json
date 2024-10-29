@@ -1,0 +1,35 @@
+{
+  "name": "@rathe/jito-block-engine-api",
+  "version": "1.0.0",
+  "description": "Jito Block Engine API client",
+  "author": "Max Koverdyaev",
+  "license": "MIT",
+  "keywords": [
+    "jito",
+    "solana",
+    "api"
+  ],
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "homepage": "https://github.com/rathe-tech/jito-block-engine-api",
+  "bugs": {
+    "url": "https://github.com/rathe-tech/jito-block-engine-api/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rathe-tech/jito-block-engine-api.git"
+  },
+  "scripts": {
+    "build": "npx tsc"
+  },
+  "devDependencies": {
+    "@types/node": "^16.18.115",
+    "typescript": "^5.6.3"
+  },
+  "peerDependencies": {
+    "@solana/web3.js": "^1.95.4"
+  },
+  "dependencies": {
+    "bs58": "^6.0.0"
+  }
+}
